@@ -1,54 +1,89 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nosso tempo!</title>
+    <title>Liza & Lucas</title>
+    <link rel="icon" href="src/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://meyerweb.com/eric/tools/css/reset/reset200802.css">
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
 </head>
 <body>
-    <h1>Nosso tempo</h1>
+    <div class="header">
+        <img src="src/logo.png" alt="Logo" class="logo">
+        <h1>Olá meu amor!</h1>
+    </div>
     <div class="conheceu-container">
         <div class="conheceu">
             <h2>Tempo que começamos a conversar:</h2>
-            <div class="countup-el daysc">
-                <p class="text text-cu" id="daysc">0</p>
-                <span class="text">Dias</span>
+            <div class="grid">
+                <div class="countup-el daysc">
+                    <p class="text text-cu" id="daysc">0</p>
+                    <span class="text">Dias</span>
+                </div>
+                <div class="countup-el hoursc">
+                    <p class="text text-cu" id="hoursc">0</p>
+                    <span class="text">Horas</span>
+                </div>
+                <div class="countup-el minc">
+                    <p class="text text-cu" id="minc">0</p>
+                    <span class="text">Minutos</span>
+                </div>
+                <div class="countup-el secc">
+                    <p class="text text-cu" id="secc">0</p>
+                    <span class="text">Segundos</span>
+                </div>
             </div>
-            <div class="countup-el hoursc">
-                <p class="text text-cu" id="hoursc">0</p>
-                <span class="text">Horas</span>
-            </div>
-            <div class="countup-el minc">
-                <p class="text text-cu" id="minc">0</p>
-                <span class="text">Minutos</span>
-            </div>
-            <div class="countup-el secc">
-                <p class="text text-cu" id="secc">0</p>
-                <span class="text">Segundos</span>
-            </div>
+            
         </div>
     </div>
 
     <div class="teamo-container">
         <div class="teamo">
             <h2>Tempo desde o primeiro<br>"Eu te amo":</h2>
-            <div class="countup-el daysa">
-                <p class="text text-cu" id="daysa">0</p>
-                <span class="text">Dias</span>
+            <div class="grid">
+                <div class="countup-el daysa">
+                    <p class="text text-cu" id="daysa">0</p>
+                    <span class="text">Dias</span>
+                </div>
+                <div class="countup-el hoursa">
+                    <p class="text text-cu" id="hoursa">0</p>
+                    <span class="text">Horas</span>
+                </div>
+                <div class="countup-el mina">
+                    <p class="text text-cu" id="mina">0</p>
+                    <span class="text">Minutos</span>
+                </div>
+                <div class="countup-el seca">
+                    <p class="text text-cu" id="seca">0</p>
+                    <span class="text">Segundos</span>
+                </div>
             </div>
-            <div class="countup-el hoursa">
-                <p class="text text-cu" id="hoursa">0</p>
-                <span class="text">Horas</span>
-            </div>
-            <div class="countup-el mina">
-                <p class="text text-cu" id="mina">0</p>
-                <span class="text">Minutos</span>
-            </div>
-            <div class="countup-el seca">
-                <p class="text text-cu" id="seca">0</p>
-                <span class="text">Segundos</span>
+        </div>
+    </div>
+
+    <div class="ficamos-container">
+        <div class="ficamos">
+            <h2>Tempo desde que demos<br>o primeiro beijo:</h2>
+            <div class="grid">
+                <div class="countup-el daysf">
+                    <p class="text text-cu" id="daysf">0</p>
+                    <span class="text">Dias</span>
+                </div>
+                <div class="countup-el hoursf">
+                    <p class="text text-cu" id="hoursf">0</p>
+                    <span class="text">Horas</span>
+                </div>
+                <div class="countup-el minf">
+                    <p class="text text-cu" id="minf">0</p>
+                    <span class="text">Minutos</span>
+                </div>
+                <div class="countup-el secf">
+                    <p class="text text-cu" id="secf">0</p>
+                    <span class="text">Segundos</span>
+                </div>
             </div>
         </div>
     </div>
@@ -56,25 +91,28 @@
     <div class="namoro-container">
         <div class="namoro">
             <h2>Tempo desde o<br>pedido de namoro:</h2>
-            <div class="countup-el daysn">
-                <p class="text text-cu" id="daysn">0</p>
-                <span class="text">Dias</span>
-            </div>
-            <div class="countup-el hoursn">
-                <p class="text text-cu" id="hoursn">0</p>
-                <span class="text">Horas</span>
-            </div>
-            <div class="countup-el minn">
-                <p class="text text-cu" id="minn">0</p>
-                <span class="text">Minutos</span>
-            </div>
-            <div class="countup-el secn">
-                <p class="text text-cu" id="secn">0</p>
-                <span class="text">Segundos</span>
+            <div class="grid">
+                <div class="countup-el daysn">
+                    <p class="text text-cu" id="daysn">0</p>
+                    <span class="text">Dias</span>
+                </div>
+                <div class="countup-el hoursn">
+                    <p class="text text-cu" id="hoursn">0</p>
+                    <span class="text">Horas</span>
+                </div>
+                <div class="countup-el minn">
+                    <p class="text text-cu" id="minn">0</p>
+                    <span class="text">Minutos</span>
+                </div>
+                <div class="countup-el secn">
+                    <p class="text text-cu" id="secn">0</p>
+                    <span class="text">Segundos</span>
+                </div>
             </div>
         </div>
     </div>
-    <h1>Mas tudo isso é para te dizer uma coisa!</h1>
-    <h1 class="euteamo">Eu<br>Te<br>AMO!</h1>
+    <div class="declaracao">
+        <h1>Um relacionamento não é facil meu amor, mas eu te prometo do fundo do meu coração fazer de tudo, pois eu quero que seja você quem vai estar do meu lado para o resto da vida!</h1>
+    </div>
 </body>
 </html>
