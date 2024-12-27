@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 const daysC = document.getElementById('daysc');
 const hoursC = document.getElementById('hoursc');
 const minutesC = document.getElementById('minc');
